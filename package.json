@@ -1,34 +1,33 @@
 {
-  "name": "grpc-mock",
-  "version": "0.7.0",
-  "description": "a simple grpc mock server",
+  "name": "@coozzy/grpc-mock",
+  "version": "1.0.0",
+  "description": "a simple grpc mock server based on grpc-mock",
   "main": "index.js",
   "scripts": {
-    "test": "$(npm bin)/mocha --require intelli-espower-loader test"
+    "test": "mocha --require intelli-espower-loader test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YoshiyukiKato/grpc-mock.git"
+    "url": "git+https://github.com/marcoEgger/grpc-mock.git"
   },
   "keywords": [
     "grpc",
     "mock"
   ],
-  "author": "YoshiyukiKato",
+  "author": "Marco Egger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YoshiyukiKato/grpc-mock/issues"
+    "url": "https://github.com/marcoEgger/grpc-mock/issues"
   },
-  "homepage": "https://github.com/YoshiyukiKato/grpc-mock#readme",
+  "homepage": "https://github.com/marcoEgger/grpc-mock#readme",
   "dependencies": {
-    "@grpc/proto-loader": "^0.3.0",
-    "grpc": "^1.17.0",
-    "grpc-kit": "^0.2.0",
-    "partial-compare": "^1.0.1"
+    "@grpc/proto-loader": "0.7.4",
+    "@grpc/grpc-js": "1.8.8",
+    "partial-compare": "1.0.1"
   },
   "devDependencies": {
-    "intelli-espower-loader": "^1.0.1",
-    "mocha": "^5.2.0",
-    "power-assert": "^1.6.1"
+    "intelli-espower-loader": "1.1.0",
+    "mocha": "10.2.0",
+    "power-assert": "1.6.1"
   }
 }
