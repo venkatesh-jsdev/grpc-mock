@@ -14,12 +14,12 @@
     "grpc",
     "mock"
   ],
-  "author": "Marco Egger",
+  "author": "Venkatesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcoEgger/grpc-mock/issues"
+    "url": "https://github.com/venkatesh-jsdev/grpc-mock/issues"
   },
-  "homepage": "https://github.com/marcoEgger/grpc-mock#readme",
+  "homepage": "https://github.com/venkatesh-jsdev/grpc-mock#readme",
   "dependencies": {
     "@grpc/proto-loader": "0.7.10",
     "@grpc/grpc-js": "1.9.12",
